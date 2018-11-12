@@ -1,11 +1,10 @@
-I solved this in C# as that is what I am work with day-to-day, and I don't have a Java IDE at the moment. 
+I solved this in C# as that is what I am working with day-to-day, and I don't have a Java IDE at the moment. 
 My second choice would have been javascript. While Java and C# are very similar, and I don't have any problem coding in it other than recalling the different names for APIs and certain unique aspects,
 I would have spent much time setting up an environment if i wanted to actually verify and run the tests first.
 
-Questions i would ask for further refinement:
+Some questions I would ask for further refinement:
 
-Would the manager class manage multiple fridges? I'm assuming for this example there is only one fridge it manages for simplicity of the exercise,
-but otherwise the manager would possibly manage many fridges, or else the dependency might be inverted (and the name changed from manager to a specific function)
+Would the manager class manage multiple fridges? I'm assuming for this example there is only one fridge it manages for simplicity of the exercise, but otherwise the manager would possibly manage many fridges, or else the dependency might be inverted (and the name changed from manager to a specific function)
 
 The word 'manager' in the name could imply many things and would require further explanation as to it's purpose - 
 is this just receiving Fridge messages and storing or displaying them to a console? Is it acting as a broker to other services (maybe the manager is communicating with a robot that will balance energy usage, stocking one fridge to capacity and shutting down another until replenishments arrive?
